@@ -1,7 +1,6 @@
 @use '../../styles';
 
 .container {
-  border: solid 1px styles.$darkGrey;
   border-radius: 8px 8px 0 0;
   @include styles.shadow;
 }
