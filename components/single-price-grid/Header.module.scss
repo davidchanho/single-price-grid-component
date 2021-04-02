@@ -3,29 +3,27 @@
 .header {
   border-radius: 8px 8px 0 0;
   grid-area: header;
+  grid-column: 1 / span 2;
+  grid-row: 1;
   background-color: styles.$white;
-  h1 {
-    color: styles.$cyan;
-  }
-  h2 {
-    color: styles.$yellow;
-  }
-  p {
-    color: styles.$grey;
-  }
 }
 
-@media (max-width: styles.$desktopBP) {
-  .header {
-    grid-column: 1 / span 2;
-    grid-row: 1;
-  }
+.title {
+  color: styles.$cyan;
+}
+
+.subtitle {
+  color: styles.$yellow;
+}
+
+.description {
+  color: styles.$grey;
 }
 
 @media (max-width: styles.$mobileBP) {
   .header {
     grid-column: 1;
     grid-row: 1;
-    padding: 28px 24px 40px 24px;
+    padding: 28px;
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../_ui/card";
 import styles from "./Footer.module.scss";
 
-const data = [
+const items = [
   "Tutorials by industry experts",
   "Peer & expert code review",
   "Coding exercises",
@@ -17,10 +17,10 @@ function Footer() {
     <Card className={styles.footer}>
       <h2>Why Us</h2>
       <ul>
-        {data.map((d, index) => {
+        {items.map((item, index) => {
           return (
-            <li key={`footer-${index}`}>
-              <small>{d}</small>
+            <li className={styles.item} key={`footer-${index}`}>
+              <small>{item}</small>
             </li>
           );
         })}

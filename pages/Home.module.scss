@@ -1,7 +1,15 @@
-.container {
+@use '../styles';
+
+.home {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: styles.$mobileBP) {
+  .home {
+    margin: 3px;
+  }
 }

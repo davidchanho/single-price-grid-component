@@ -2,18 +2,6 @@
 
 .container {
   @include styles.shadow;
-}
-
-@media (max-width: styles.$desktopBP) {
-  .container {
-    width: 635px;
-    height: 518px;
-  }
-}
-
-@media (max-width: styles.$mobileBP) {
-  .container {
-    width: 362px;
-    height: 722px;
-  }
+  max-width: 635px;
+  width: 87%;
 }

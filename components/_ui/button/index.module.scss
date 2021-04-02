@@ -10,8 +10,9 @@
   outline: none;
   color: styles.$white;
   @include styles.shadow;
+
   &:hover {
     cursor: pointer;
-      background-color: darken(styles.$yellow, 7%);
+    background-color: darken(styles.$yellow, 7%);
   }
 }
