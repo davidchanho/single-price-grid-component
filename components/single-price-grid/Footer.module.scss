@@ -8,8 +8,11 @@
   grid-row: 2;
 }
 
-.item > small {
+.item {
   opacity: 0.75;
+  font-size: 14px;
+  letter-spacing: -0.17px;
+  line-height: 20px;
 }
 
 @media (max-width: styles.$mobileBP) {

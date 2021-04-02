@@ -20,7 +20,7 @@ function Footer() {
         {items.map((item, index) => {
           return (
             <li className={styles.item} key={`footer-${index}`}>
-              <small>{item}</small>
+              {item}
             </li>
           );
         })}
