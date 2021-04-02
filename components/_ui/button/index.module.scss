@@ -1,0 +1,12 @@
+@use '../../../styles';
+
+.button {
+  background-color: styles.$yellow;
+  width: 237px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: styles.$white;
+  @include styles.shadow;
+}

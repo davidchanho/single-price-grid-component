@@ -1,0 +1,21 @@
+@use '../../styles';
+
+.container {
+  border: solid 1px styles.$darkGrey;
+  border-radius: 8px 8px 0 0;
+  @include styles.shadow;
+}
+
+@media (max-width: styles.$desktopBP) {
+  .container {
+    width: 635px;
+    height: 518px;
+  }
+}
+
+@media (max-width: styles.$mobileBP) {
+  .container {
+    width: 362px;
+    height: 722px;
+  }
+}

@@ -1,0 +1,24 @@
+@use '../../styles';
+
+.footer {
+  grid-area: footer;
+  color: styles.$white;
+  background-color: styles.$lightTeal;
+  li > small {
+    opacity: 0.75;
+  }
+}
+
+@media (max-width: styles.$desktopBP) {
+  .footer {
+    grid-column: 2 / 2;
+    grid-row: 2;
+  }
+}
+
+@media (max-width: styles.$mobileBP) {
+  .footer {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}

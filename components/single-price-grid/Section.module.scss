@@ -1,0 +1,41 @@
+@use '../../styles';
+
+.section {
+  color: styles.$white;
+  background-color: styles.$cyan;
+  grid-area: section;
+  h2 {
+    margin-bottom: 24px;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    h3 {
+      display: flex;
+      align-items: center;
+      font-size: 32px;
+      margin-right: 5px;
+    }
+    span {
+      opacity: 50%;
+    }
+  }
+  p {
+    margin-bottom: 26px;
+  }
+}
+
+@media (max-width: styles.$desktopBP) {
+  .section {
+    grid-column: 1 / 2;
+    grid-row: 2;
+  }
+}
+
+@media (max-width: styles.$mobileBP) {
+  .section {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}

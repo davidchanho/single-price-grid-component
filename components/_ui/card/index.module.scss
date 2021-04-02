@@ -1,0 +1,19 @@
+@use '../../../styles';
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (max-width: styles.$desktopBP) {
+  .card {
+    padding: 40px;
+  }
+}
+@media (max-width: styles.$mobileBP) {
+  .card {
+    padding: 24px;
+  }
+}
