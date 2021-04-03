@@ -5,7 +5,7 @@ function NextHead() {
   return (
     <Head>
       <title>Single Price Grid Component</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon-32x32.png" />
     </Head>
   );
 }

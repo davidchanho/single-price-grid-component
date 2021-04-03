@@ -1,9 +1,9 @@
-@use '../../styles';
+@use '../../styles' as *;
 
 .footer {
   grid-area: footer;
-  color: styles.$white;
-  background-color: styles.$lightTeal;
+  color: $white;
+  background-color: $lightTeal;
   grid-column: 2 / 2;
   grid-row: 2;
 }
@@ -15,7 +15,7 @@
   line-height: 20px;
 }
 
-@media (max-width: styles.$mobileBP) {
+@media (max-width: $mobileBP) {
   .footer {
     grid-column: 1;
     grid-row: 3;

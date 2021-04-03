@@ -1,29 +1,27 @@
-@use '../../styles';
+@use '../../styles' as *;
 
 .header {
   border-radius: 8px 8px 0 0;
   grid-area: header;
   grid-column: 1 / span 2;
   grid-row: 1;
-  background-color: styles.$white;
+  background-color: $white;
 }
 
 .title {
-  color: styles.$cyan;
+  color: $cyan;
 }
 
 .subtitle {
-  color: styles.$yellow;
+  color: $yellow;
 }
 
 .description {
-  color: styles.$grey;
+  color: $grey;
 }
 
-@media (max-width: styles.$mobileBP) {
+@media (max-width: $mobileBP) {
   .header {
-    grid-column: 1;
-    grid-row: 1;
     padding: 28px;
   }
 }

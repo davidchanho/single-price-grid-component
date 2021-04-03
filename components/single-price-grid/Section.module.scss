@@ -1,8 +1,8 @@
-@use '../../styles';
+@use '../../styles' as *;
 
 .section {
-  color: styles.$white;
-  background-color: styles.$cyan;
+  color: $white;
+  background-color: $cyan;
   grid-area: section;
   grid-column: 1 / 2;
   grid-row: 2;
@@ -31,11 +31,4 @@
 
 .per {
   opacity: 50%;
-}
-
-@media (max-width: styles.$mobileBP) {
-  .section {
-    grid-column: 1;
-    grid-row: 2;
-  }
 }

@@ -1,4 +1,4 @@
-@use '../../../styles';
+@use '../../../styles' as *;
 
 .card {
   display: flex;
@@ -8,7 +8,7 @@
   padding: 40px;
 }
 
-@media (max-width: styles.$mobileBP) {
+@media (max-width: $mobileBP) {
   .card {
     padding: 24px;
   }

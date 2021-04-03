@@ -1,4 +1,4 @@
-@use '../styles';
+@use '../styles' as *;
 
 .home {
   min-height: 100vh;
@@ -8,7 +8,8 @@
   align-items: center;
 }
 
-@media (max-width: styles.$mobileBP) {
+
+@media (max-width: $mobileBP) {
   .home {
     margin: 3px;
   }

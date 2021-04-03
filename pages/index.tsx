@@ -1,6 +1,7 @@
 import React from "react";
-import NextHead from "../components/_layout/head";
 import SinglePriceGrid from "../components/single-price-grid";
+import Attribution from "../components/_layout/attribution";
+import NextHead from "../components/_layout/head";
 import styles from "./Home.module.scss";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <div className={styles.home}>
       <NextHead />
       <SinglePriceGrid />
+      <Attribution />
     </div>
   );
 }

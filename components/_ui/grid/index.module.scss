@@ -1,4 +1,4 @@
-@use '../../../styles';
+@use '../../../styles' as *;
 
 .grid {
   display: grid;
@@ -9,7 +9,7 @@
     "section footer";
 }
 
-@media (max-width: styles.$mobileBP) {
+@media (max-width: $mobileBP) {
   .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -18,7 +18,5 @@
       "header"
       "section"
       "footer";
-    width: 100%;
-    height: 100%;
   }
 }
