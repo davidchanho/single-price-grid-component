@@ -8,7 +8,7 @@
   padding: 40px;
 }
 
-@media (max-width: $mobileBP) {
+@media (max-width: $bp-mobileBP) {
   .card {
     padding: 24px;
   }

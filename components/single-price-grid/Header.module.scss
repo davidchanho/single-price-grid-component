@@ -20,7 +20,7 @@
   color: $grey;
 }
 
-@media (max-width: $mobileBP) {
+@media (max-width: $bp-mobileBP) {
   .header {
     padding: 28px;
   }

@@ -9,7 +9,7 @@
     "section footer";
 }
 
-@media (max-width: $mobileBP) {
+@media (max-width: $bp-mobileBP) {
   .grid {
     display: grid;
     grid-template-columns: 1fr;

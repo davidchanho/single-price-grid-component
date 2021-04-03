@@ -15,7 +15,7 @@
   line-height: 20px;
 }
 
-@media (max-width: $mobileBP) {
+@media (max-width: $bp-mobileBP) {
   .footer {
     grid-column: 1;
     grid-row: 3;
