@@ -15,7 +15,7 @@ const items = [
 function SinglePriceGrid() {
   return (
     <div className={styles.container}>
-      <section className={styles.header}>
+      <header className={styles.header}>
         <h1>Join our community</h1>
         <h2>30-day, hassle-free money back guarantee</h2>
         <p>
@@ -23,7 +23,7 @@ function SinglePriceGrid() {
           reviews. Perfect for any developers who are serious about honing their
           skills.
         </p>
-      </section>
+      </header>
 
       <section className={styles.section}>
         <h2>Monthly Subscription</h2>
@@ -34,11 +34,11 @@ function SinglePriceGrid() {
         </div>
 
         <p>Full access for less than $1 a day</p>
-        
+
         <Signup />
       </section>
 
-      <section className={styles.footer}>
+      <footer className={styles.footer}>
         <h2>Why Us</h2>
         <ul>
           {items.map((item, index) => {
@@ -49,7 +49,7 @@ function SinglePriceGrid() {
             );
           })}
         </ul>
-      </section>
+      </footer>
     </div>
   );
 }
