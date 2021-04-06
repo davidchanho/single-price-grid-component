@@ -1,6 +1,6 @@
 # Frontend Mentor - Single price grid component solution
 
-This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,6 +16,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
+    - [Frontend Mentor Slack](#frontend-mentor-slack)
 
 ## Overview
 
@@ -33,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/react-next-js-with-scss-grid-Jywl0EVri)
+- Live Site URL: [Vercel](https://single-price-grid-component-one-black.vercel.app/)
 
 ## My process
 
@@ -54,7 +56,7 @@ I furthered my knowledge and utilized CSS Grid. I generally used flex box but wa
 
 ### Continued development
 
-I am still not as comfortable with CSS Grid right now but I going to use it more often replacing bootstrap grid. 
+I am still not as comfortable with CSS Grid right now but I going to use it more often replacing bootstrap grid.
 
 ### Useful resources
 
@@ -64,3 +66,10 @@ I am still not as comfortable with CSS Grid right now but I going to use it more
 
 - Website - [David Chan Ho](https://www.davidchanho.com)
 - Frontend Mentor - [@davidchanho](https://www.frontendmentor.io/profile/davidchanho)
+
+## Acknowledgments
+
+### Frontend Mentor Slack
+
+- Steven Toben - how to utilize css grid properly.
+- Silver Graph - media queries and responsive web design.

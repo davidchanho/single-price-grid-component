@@ -1,5 +1,6 @@
+@use "colors" as *;
 @import "fonts";
 
 body {
-  background-color: #e6eff6;
+  background-color: $background;
 }
